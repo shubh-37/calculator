@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 23vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    flex-direction: column; 
+    height: 10%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    text-align: center;
+}
+.row{
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.number{
+    background-color: #d8d9db;
+    flex:1;
+    cursor: pointer;
+    font-size: large;
+}
+.number:hover{
+    background-color: #ebebeb;
+}
+.number:active{
+    background-color: #bbbcbe;
+}
+.clear {
+    flex : 29.7%; 
+}
+
+.result{
+    text-align: right;
+    padding: 20px 5px;
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+   
+}
+.zero {
+    flex: 54.5%;
+}
+.lc{
+    background-color: #df974c;
+    color: white;
+}
+.lc:hover{
+    background-color: #dfb07e;
+}
+.lc:active{
+    background-color: #dd8d37;
+}
